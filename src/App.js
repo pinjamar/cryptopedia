@@ -1,6 +1,6 @@
-import React from "react";
-import { Routes, Route, Link } from "react-router-dom";
-import { Layout, Typography, Space } from "antd";
+import React from 'react';
+import { Routes, Route, Link } from 'react-router-dom';
+import { Layout, Typography, Space } from 'antd';
 
 import {
   Navbar,
@@ -9,8 +9,8 @@ import {
   Cryptocurrencies,
   News,
   CryptoDetails,
-} from "./components";
-import "./App.css";
+} from './components';
+import './App.css';
 
 const App = () => {
   return (
@@ -38,7 +38,7 @@ const App = () => {
         <div className="footer">
           <Typography.Title
             level={5}
-            style={{ color: "white", textAlign: "center" }}
+            style={{ color: 'white', textAlign: 'center' }}
           >
             Cryptopedia <br />
             All rights reserved
