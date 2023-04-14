@@ -1,70 +1,56 @@
-# Getting Started with Create React App
+# Project Cryptopedia
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+This is a cryptocurrency app that uses APIs and Redux. You can find Top 100 coins here together with their basic informations. It also includes crypto news & exchanges and the idea is to include a lot more stuff down the road. I will try to add more APIs and get more detailed data about the coins.
 
-## Available Scripts
+## System Requirements
 
-In the project directory, you can run:
+To get started with development, you need to install few tools
 
-### `yarn start`
+1. git
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+   `git` version 2.13.1 or higher. Download [git](https://git-scm.com/downloads) if you don't have it already.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+   To check your version of git, run:
 
-### `yarn test`
+   ```shell
+    git --version
+   ```
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+2. node & npm
 
-### `yarn build`
+   `node` version 16.15.1 or higher. Download [node](https://nodejs.org/en/download/) if you don't have it already.
+   `npm` version 5.6.1 or higher. You will have it after you install node.
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+   To check your version of node or npm, run:
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+   ```shell
+    node --version
+    npm --version
+   ```
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+## Setup
 
-### `yarn eject`
+To set up a development environment, please follow these steps:
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+1. Clone the repo
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+   ```shell
+    git clone https://github.com/pinjamar/cryptopedia
+   ```
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+2. Change directory to the project directory and install npm
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+   ```shell
+   cd cryptopedia
+   npm install
+   ```
 
-## Learn More
+3. Run the app
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+   ```shell
+   npm start
+   ```
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+   Project will be running in the browser.
 
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `yarn build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+   Open [http://localhost:3000](http://localhost:3000) to view it in your browser.

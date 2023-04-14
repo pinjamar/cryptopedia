@@ -16,17 +16,13 @@ const Navbar = () => {
   const [screenSize, setScreenSize] = useState(undefined);
 
   useEffect(() => {
-    const handleResize = () => {
-      setScreenSize(window.innerWidth);
+    const handleResize = () => setScreenSize(window.innerWidth);
 
-      window.addEventListener('resize', handleResize);
+    window.addEventListener('resize', handleResize);
 
-      handleResize();
+    handleResize();
 
-      return () => {
-        window.removeEventListener('resize', handleResize);
-      };
-    };
+    return () => window.removeEventListener('resize', handleResize);
   }, []);
 
   useEffect(() => {
